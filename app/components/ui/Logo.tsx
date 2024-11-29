@@ -1,4 +1,4 @@
-import { SpikesIcon } from "../../public/spikes_icon";
+import { SpikesIcon } from "../../../public/spikes_icon";
 
 function Logo() {
     return (

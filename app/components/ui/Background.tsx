@@ -1,5 +1,5 @@
 import React from "react";
-import { GridPattern } from "../../public/grid-pattern"
+import { GridPattern } from "../../../public/grid-pattern"
 
 
 function Background() {
