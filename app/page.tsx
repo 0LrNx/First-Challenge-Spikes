@@ -1,7 +1,7 @@
-import { InfiniteScrolling } from "./components/InfiniteScrolling";
-import Logo from "./components/Logo";
-import Background from "./components/Background";
-import ButtonSpikes from "./components/ButtonSpikes";
+import { InfiniteScrolling } from "./components/features/InfiniteScrolling";
+import Logo from "./components/ui/Logo";
+import Background from "./components/ui/Background";
+import ButtonSpikes from "./components/ui/ButtonSpikes";
 
 export default function Home() {
   return (
