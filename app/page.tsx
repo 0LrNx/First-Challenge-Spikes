@@ -5,7 +5,7 @@ import ButtonSpikes from "./components/ui/ButtonSpikes";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <div className="flex flex-col items-center justify-center w-full h-full">
         <Background />
         <div className="absolute flex justify-center items-center gap-2 top-16">
@@ -16,6 +16,6 @@ export default function Home() {
           <ButtonSpikes />
         </div>
       </div>
-    </>
+    </main>
   );
 }
