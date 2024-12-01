@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 type ReviewCardProps = {
   img: string;
   name: string;
@@ -10,7 +12,7 @@ const ReviewCard = ({ img, name, username, body }: ReviewCardProps) => {
     <div className="w-72 h-40 rounded-xl p-[1px] bg-gradient-to-b from-[#4C3182] to-[#11032C]">
       <div className="rounded-xl py-4 px-6 bg-[#0C0024] h-full">
         <div className="flex flex-row items-center gap-2">
-          <img
+          <Image
             className="rounded-full"
             width="32"
             height="32"
